@@ -1,0 +1,49 @@
+.budget-calculator .tab-content{
+	background:#fff;
+}
+
+.budget-calculator table{
+	width:100%;
+}
+.budget-calculator h1,
+.budget-calculator h2,
+.budget-calculator h3{
+	color:#333;
+}
+.budget-calculator tfoot td{
+	text-align:right;
+	border:none !important;
+	padding:0 !important;
+}
+.budget-calculator tfoot .add-row{
+	font-size:11px;
+	cursor:pointer;
+	padding:3px 8px;
+	margin:5px 0;
+}
+.budget-calculator tfoot td .total{
+	display:block;
+	padding-top:10px;
+	font-weight:bold;
+}
+.budget-calculator .header-content h3{
+	text-transform:none;
+}
+.budget-calculator .totals h3 .percent{
+	font-size:70%;
+	margin-left:20px;
+}
+.budget-calculator .totals h3{
+	margin-bottom:3px;
+}
+.budget-calculator .totals .progress-bar{
+	max-width:100%;
+}
+.budget-calculator td .remove-row{
+	cursor:pointer;
+	opacity:0.3;
+	cursor:pointer;
+}
+.budget-calculator td .remove-row:hover{
+	opacity:1;
+}
